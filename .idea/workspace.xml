@@ -4,24 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bef36a89-882e-4c2f-b5a1-00e3db81a06a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/calculatorapp/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/calculatorapp/CalculatorApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/calculatorapp/CalculatorController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/calculatorapp/SubstringParam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/calculatorapp/hello-view.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ScalculatorTest.java" afterDir="false" />
+    <list default="true" id="bef36a89-882e-4c2f-b5a1-00e3db81a06a" name="Changes" comment="abb">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/calculatorapp/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/calculatorapp/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/calculatorapp/CalculatorApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/calculatorapp/CalculatorApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/calculatorapp/CalculatorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/calculatorapp/CalculatorController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +58,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -118,11 +106,35 @@
       <option name="presentableId" value="Default" />
       <updated>1729184883476</updated>
       <workItem from="1729184884711" duration="11096000" />
-      <workItem from="1729414106619" duration="9997000" />
+      <workItem from="1729414106619" duration="12105000" />
     </task>
+    <task id="LOCAL-00001" summary="abb">
+      <option name="closed" value="true" />
+      <created>1729427718410</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1729427718410</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="abb" />
+    <option name="LAST_COMMIT_MESSAGE" value="abb" />
   </component>
 </project>

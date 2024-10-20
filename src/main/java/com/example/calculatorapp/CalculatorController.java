@@ -115,38 +115,48 @@ public class CalculatorController {
 
     @FXML
     protected void btnPlusClick() {
-        if(preResultEnable)
-            PreResult.setText(calculate(ScreenText));
-        preResultEnable=true;
-        ScreenText = ScreenText + "+";
-        ScreenField.setText(ScreenText);
+        if(!ScreenText.endsWith("+")&&!ScreenText.endsWith("-")&&!ScreenText.endsWith("*")&&!ScreenText.endsWith("/")) {
+            if (preResultEnable)
+                PreResult.setText(calculate(ScreenText));
+            preResultEnable = true;
+            ScreenText = ScreenText + "+";
+            ScreenField.setText(ScreenText);
+        }
+        else
+            ScreenField.setText("Do not write two operators");
     }
 
     @FXML
     protected void btnMinusClick() {
-        if(preResultEnable)
-            PreResult.setText(calculate(ScreenText));
-        preResultEnable=true;
-        ScreenText = ScreenText + "-";
-        ScreenField.setText(ScreenText);
+        if(!ScreenText.endsWith("+")&&!ScreenText.endsWith("-")&&!ScreenText.endsWith("*")&&!ScreenText.endsWith("/")) {
+            if (preResultEnable)
+                PreResult.setText(calculate(ScreenText));
+            preResultEnable = true;
+            ScreenText = ScreenText + "-";
+            ScreenField.setText(ScreenText);
+        }
     }
 
     @FXML
     protected void btnMultiplyClick() {
-        if(preResultEnable)
-            PreResult.setText(calculate(ScreenText));
-        preResultEnable=true;
-        ScreenText = ScreenText + "*";
-        ScreenField.setText(ScreenText);
+        if(!ScreenText.endsWith("+")&&!ScreenText.endsWith("-")&&!ScreenText.endsWith("*")&&!ScreenText.endsWith("/")) {
+            if (preResultEnable)
+                PreResult.setText(calculate(ScreenText));
+            preResultEnable = true;
+            ScreenText = ScreenText + "*";
+            ScreenField.setText(ScreenText);
+        }
     }
 
     @FXML
     protected void btnDivideClick() {
-        if(preResultEnable)
-            PreResult.setText(calculate(ScreenText));
-        preResultEnable=true;
-        ScreenText = ScreenText + "/";
-        ScreenField.setText(ScreenText);
+        if(!ScreenText.endsWith("+")&&!ScreenText.endsWith("-")&&!ScreenText.endsWith("*")&&!ScreenText.endsWith("/")) {
+            if (preResultEnable)
+                PreResult.setText(calculate(ScreenText));
+            preResultEnable = true;
+            ScreenText = ScreenText + "/";
+            ScreenField.setText(ScreenText);
+        }
     }
 
     @FXML

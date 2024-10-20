@@ -52,7 +52,7 @@ public class Calculator {
                 if(operator=='*')
                     result=leftOpperand*RightOpperand;
                 if(operator=='/')
-                    result=leftOpperand/RightOpperand;
+                        result = leftOpperand / RightOpperand;
                 if(operator=='+')
                     result=leftOpperand+RightOpperand;
                 if(operator=='-')
